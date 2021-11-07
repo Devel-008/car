@@ -13,6 +13,36 @@
     overflow-x: hidden;
 }
 
+.text {
+    display: flex;
+    margin-left: 36%;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.text1 {
+    margin-left: 0.4em;
+    background-color: orange;
+}
+
+.text2 {
+    margin-left: 0.4em;
+    background-color: white;
+}
+
+.text3 {
+    margin-left: 0.4em;
+    background-color: green;
+}
+
+.footer2 {
+    font-size: 2em;
+    font-weight: 700;
+    color: #3F3351;
+    position: absolute;
+    top: 0px;
+}
+
 .road {
     height: 200px;
     width: 300%;
