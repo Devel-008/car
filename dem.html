@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            text-align: center;
+            background: linear-gradient(to right, #f12711, #f5af19);
+        }
+        
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        .main {
+            padding-left: 45%;
+            align-items: center;
+        }
+        
+        .containers {
+            display: flex;
+        }
+        
+        .sqr {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            background-color: green;
+            transition: width 2s, height 4s;
+        }
+        
+        .one:hover {
+            width: 200px;
+        }
+        
+        .two:hover {
+            width: 250px;
+            height: 250px;
+        }
+        
+        .three {
+            transition-timing-function: linear;
+        }
+        
+        .three:hover {
+            width: 300px;
+        }
+        
+        .four {
+            transition-timing-function: ease;
+        }
+        
+        .four:hover {
+            width: 300px;
+        }
+        
+        .five {
+            transition-timing-function: ease-in;
+        }
+        
+        .five:hover {
+            width: 300px;
+        }
+        
+        .six {
+            transition-timing-function: ease-out;
+        }
+        
+        .six:hover {
+            width: 300px;
+        }
+        
+        .seven {
+            transition-timing-function: ease-in-out;
+        }
+        
+        .seven:hover {
+            width: 300px;
+        }
+        
+        .link {
+            margin: 10px;
+        }
+        
+        .link a {
+            margin: 10px;
+            color: black;
+            font-size: 25px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="margin-bottom: 20px;">Try to replicate this</h1>
+    <div class="main">
+
+        <div class="containers">
+            <h1>1.</h1>
+            <div class="one sqr  "></div>
+        </div>
+        <div class="containers">
+            <h1>2.</h1>
+            <div class="two sqr"></div>
+        </div>
+        <div class="containers">
+            <h1>3.</h1>
+            <div class="three sqr"></div>
+        </div>
+        <div class="containers">
+            <h1>4.</h1>
+            <div class="four sqr"></div>
+        </div>
+        <div class="containers">
+            <h1>5.</h1>
+            <div class="five sqr"></div>
+        </div>
+        <div class="containers">
+            <h1>6.</h1>
+            <div class="six sqr"></div>
+        </div>
+        <div class="containers">
+            <h1>7.</h1>
+            <div class="seven sqr"></div>
+        </div>
+    </div>
+    <div class="link">
+        <a href="index.html">Go Back</a>
+        <a href="car.html">Next...</a>
+    </div>
+
+</body>
+
+</html>
